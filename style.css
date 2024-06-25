@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image:url(./programmer.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    color:white;
+    position: relative;
+    
+   
+}
+main .container{
+    padding: 50px 50px;
+    align-items: center;
+    background-color: rgb(9, 131, 230);
+    width: 60%;
+    height: 500vh;
+    margin-left: 15%;
+    text-align: initial;
+    margin-top: 60px;
+    color: initial;
+}
+ 
+main .container .size{
+    width: 96%;
+    padding: 10px;
+    
+} 
+main .heading{
+    font-size: 40px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    border: none;
+    color:white;
+    padding: 10px;
+    width: 100%;
+
+}
+main .container select{
+    width: 99%;
+    padding: 10px;
+}
+@media screen and (max-width:542px) {
+    main .container{
+        margin-left:15%;
+        margin-right: 5%;
+
+        
+    }
+    
+}
+@media screen and (max-width:582px) {
+    main .container{
+        margin-left:15px;
+        margin-right: 10px;
+
+        
+    }
+    
+}
